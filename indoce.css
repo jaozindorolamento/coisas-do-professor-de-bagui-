@@ -1,0 +1,50 @@
+    body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    }
+
+    h1 {
+    margin-top: 20px;
+    }
+
+    p {
+    margin-bottom: 20px;
+    }
+
+    /* Container dos botões */
+    .botoes-container {
+    display: flex;
+    flex-wrap: wrap; /* permite quebra de linha se não couber */
+    justify-content: center;
+    gap: 10px; /* controla o espaço entre os botões */
+    margin-bottom: 50px;
+    }
+
+    /* Botão individual */
+    .botao {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagem dentro do botão */
+    .botao img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    }
+
+    /* Efeito ao passar o mouse */
+    .botao:hover {
+    transform: scale(1.1); /* aumenta o botão */
+    box-shadow: 0 10px 20px rgba(255,255,255,0.3); /* sombra suave */
+    }
+
+    /* Efeito ao clicar */
+    .botao:active {
+    transform: scale(0.95); /* efeito de “afundar” */
+    }
